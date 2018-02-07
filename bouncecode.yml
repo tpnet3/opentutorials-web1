@@ -1,13 +1,5 @@
 name: opentutorials-web1
 
-install:
-    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-    - sudo apt-get install -y nodejs
-    - curl https://install.meteor.com/ | sh
-    - meteor update --allow-superuser
-    - meteor npm install
-    - sudo chown -Rh root .meteor/local
-
 information:
     title: WEB1 - HTML & Internet
 
